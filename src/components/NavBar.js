@@ -34,7 +34,7 @@ const NavBar = () => {
                         }}
                     >
                         <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/">
-                            Mood Meter
+                            Movie
                         </Link>
                     </Typography>
                     <Box sx={{ display: 'flex' }}>
