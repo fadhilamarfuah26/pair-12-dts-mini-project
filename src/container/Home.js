@@ -2,7 +2,7 @@ import { Box, Button } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
-import tmdb from '../apis/tmdb';
+import tmdb from '../api/tmdb';
 import MovieCard from '../components/MovieCard';
 
 const Home = () => {
