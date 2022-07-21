@@ -55,7 +55,7 @@ const NavBar = () => {
                             textAlign: 'left'
                         }}
                     >
-                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/login">
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/register">
                             Sign Up
                         </Link>
                     </Typography>
