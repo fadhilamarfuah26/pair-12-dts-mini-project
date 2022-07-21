@@ -37,6 +37,17 @@ const NavBar = () => {
                             Movie
                         </Link>
                     </Typography>
+                    <Typography
+                        variant="h6"
+                        sx={{
+                            flexGrow: 1,
+                            textAlign: 'left'
+                        }}
+                    >
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/login">
+                            Login
+                        </Link>
+                    </Typography>
                     <Box sx={{ display: 'flex' }}>
                         <Box sx={{ padding: 1 }}>
                             <Logout onClick={onLogout} />
