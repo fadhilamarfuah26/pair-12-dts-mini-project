@@ -48,6 +48,17 @@ const NavBar = () => {
                             Login
                         </Link>
                     </Typography>
+                    <Typography
+                        variant="h6"
+                        sx={{
+                            flexGrow: 1,
+                            textAlign: 'left'
+                        }}
+                    >
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/login">
+                            Sign Up
+                        </Link>
+                    </Typography>
                     <Box sx={{ display: 'flex' }}>
                         <Box sx={{ padding: 1 }}>
                             <Logout onClick={onLogout} />
