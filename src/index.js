@@ -11,6 +11,7 @@ import Login from './container/Login';
 import Home from './container/Home';
 import Register from './container/Register';
 import NotFound from './container/NotFound';
+import DetailPage from './container/DetailPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ root.render(
         }>
           <Route path="/" element={<Home/>} />
         </Route>
+        <Route path= "/detailpage" element={<DetailPage/>}/>
         <Route path="login" element={
           <PrivateComponent loginOnly={false}>
             <Login />

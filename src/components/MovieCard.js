@@ -19,7 +19,7 @@ const MovieCard = ({ movie }) => {
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h6">
-            <Link to="/login">
+            <Link to="/detailpage">
             {movie.title}
             </Link>
           </Typography>
