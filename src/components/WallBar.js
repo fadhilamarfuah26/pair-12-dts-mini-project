@@ -20,7 +20,6 @@ const WallBar= () => {
               variant="h2"
               align="center"
               color="text.primary"
-              font-family="kaushan-script"
               gutterBottom
             >
               Welcome to Movie Wiki

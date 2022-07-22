@@ -2,6 +2,7 @@ import { Box, CardMedia, Rating } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import {Link} from 'react-router-dom';
 import * as React from 'react';
 
 const BASE_IMAGE_URL = "https://image.tmdb.org/t/p/original";
@@ -18,7 +19,9 @@ const MovieCard = ({ movie }) => {
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="div" variant="h6">
+            <Link to="/login">
             {movie.title}
+            </Link>
           </Typography>
           <Typography variant="subtitle1" color="text.secondary" component="div">
             {new Date(movie.release_date).getFullYear()}
