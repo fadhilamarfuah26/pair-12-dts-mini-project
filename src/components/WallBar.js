@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import '@fontsource/kaushan-script';
 import * as React from 'react';
 const WallBar= () => {
     return (
@@ -19,9 +20,10 @@ const WallBar= () => {
               variant="h2"
               align="center"
               color="text.primary"
+              font-family="kaushan-script"
               gutterBottom
             >
-              Album layout
+              Welcome to Movie Wiki
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
               Something short and leading about the collection below—its contents,
