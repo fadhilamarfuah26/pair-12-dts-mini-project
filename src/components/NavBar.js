@@ -37,10 +37,10 @@ const NavBar = () => {
                         <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/">
                             Movie
                         </Link>
-                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/login">
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit',padding:1 }} to="/login">
                             Login
                         </Link>
-                        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/register">
+                        <Link style={{ color: 'inherit', textDecoration: 'inherit',padding:1 }} to="/register">
                             Sign Up
                         </Link>
                     </Typography>
