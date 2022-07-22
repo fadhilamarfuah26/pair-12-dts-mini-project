@@ -9,12 +9,13 @@ import { Outlet } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import theme from './themes/theme';
-
+import WallBar from './components/WallBar'
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
         <NavBar />
+        <WallBar/>
         <Outlet/>
       </div>
     </ThemeProvider>
