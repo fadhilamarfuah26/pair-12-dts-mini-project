@@ -37,26 +37,9 @@ const NavBar = () => {
                         <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/">
                             Movie
                         </Link>
-                    </Typography>
-                    <Typography
-                        variant="h6"
-                        sx={{
-                            mr:2,
-                            flexGrow: 1,
-                            textAlign: 'left'
-                        }}
-                    >
                         <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/login">
                             Login
                         </Link>
-                    </Typography>
-                    <Typography
-                        variant="h6"
-                        sx={{
-                            flexGrow: 1,
-                            textAlign: 'left'
-                        }}
-                    >
                         <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to="/register">
                             Sign Up
                         </Link>
