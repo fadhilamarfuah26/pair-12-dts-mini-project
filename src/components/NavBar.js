@@ -29,6 +29,7 @@ const NavBar = () => {
                     <Typography
                         variant="h6"
                         sx={{
+                            mr:2,
                             flexGrow: 1,
                             textAlign: 'left'
                         }}
@@ -40,6 +41,7 @@ const NavBar = () => {
                     <Typography
                         variant="h6"
                         sx={{
+                            mr:2,
                             flexGrow: 1,
                             textAlign: 'left'
                         }}
