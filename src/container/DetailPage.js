@@ -1,26 +1,20 @@
-import * as React from 'react';
-import { Box, CardMedia } from '@mui/material';
-import Card from '@mui/material/Card';
-import Typography from '@mui/material/Typography';
+import { Typography } from '@mui/material';
+import { Box } from '@mui/system';
+import React from 'react';
 
-const BASE_IMAGE_URL = "https://image.tmdb.org/t/p/original";
-const DetailPage = ({movie}) => {
+const DetailPage = () => {
     return (
-    <Box>
-    <Card id={movie.id} sx={{ display: 'flex', width: 400, margin: 5 }}>
-      <CardMedia
-        component="img"
-        sx={{ width: 150, height: 225 }}
-        image={`${BASE_IMAGE_URL}${movie.poster_path}`}
-        alt="Movie poster"
-      />
-      </Card>
-      <Box sx={{display: 'flex'}}>
-        <Typography component="div" variant="h6">
-            helooo
-        </Typography>
-      </Box>
-    </Box>
+        <Box sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            margin: 5,
+        }}>
+            <Typography component="div" variant="h4" align="center" sx={{ margin: 5 }}>
+                Who are we?
+            </Typography>
+            
+        </Box>
     )
-}
+};
+
 export default DetailPage;
